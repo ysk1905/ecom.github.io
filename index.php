@@ -6,20 +6,13 @@
 include("partials/head.php");
 ?>
 
-<body class="animsition" style="background-color: #E9BCB6 !important;">
+<body class="animsition" >
 
   <?php
   include("partials/header.php");
   include("partials/slider.php");
   include("partials/banner.php");
-
   ?>
-
-
-
-
-
-
   <section class="bg0 p-t-23 p-b-140">
     <div class="container">
       <div class="p-b-10">
