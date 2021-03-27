@@ -6,11 +6,8 @@ include ("partials/head.php");
 <body class="animsition">
 	<?php
 	include ("partials/header.php");
-
-
-
 ?>
-
+<br><br><br><br><br>
 	<!-- Title page -->
 	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/about1.jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
