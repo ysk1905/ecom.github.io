@@ -44,21 +44,7 @@ include ("partials/head.php");
 				</div>
 
 				<div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
-					<div class="flex-w w-full p-b-42">
-						<span class="fs-18 cl5 txt-center size-211">
-							<span class="lnr lnr-map-marker"></span>
-						</span>
-
-						<div class="size-212 p-t-2">
-							<span class="mtext-110 cl2">
-								Address
-							</span>
-
-							<p class="stext-115 cl6 size-213 p-t-18">
-								Hokage office, Hidden street, Hidden Leaf Village, HL 10018 SL
-							</p>
-						</div>
-					</div>
+					
 
 					<div class="flex-w w-full p-b-42">
 						<span class="fs-18 cl5 txt-center size-211">
@@ -71,7 +57,7 @@ include ("partials/head.php");
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								+1 800 Ino
+							 	+91 8817842683
 							</p>
 						</div>
 					</div>
@@ -87,7 +73,7 @@ include ("partials/head.php");
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								tenten@hl.com
+								AHIclothing2021@gmail.com
 							</p>
 						</div>
 					</div>
