@@ -6,10 +6,8 @@ include ("partials/head.php");
 <body class="animsition">
 	<?php
 	include ("partials/header.php");
-
-
 ?>
-
+<br><br><br><br><br>
 
 	<!-- breadcrumb -->
 	<div class="container">
