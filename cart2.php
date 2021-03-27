@@ -124,7 +124,7 @@ include("partials/head.php");
 
 							<div class="size-209 p-r-18 p-r-0-sm w-full-ssm">
 								<p class="stext-111 cl6 p-t-2">
-									We will deliver anywhere by our Anbu Black Ops.
+									Free delivery is avilable on orders above Rs.7000
 								</p>
 
 								<div class="p-t-15">
