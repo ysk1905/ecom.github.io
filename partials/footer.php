@@ -60,7 +60,7 @@
 					GET IN TOUCH
 				</h4>
 				<p class="stext-107 cl7 size-201">
-					Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+					Call us on +91 8817842683 or email us at AHIclothing2021@gmail.com
 				</p>
 				<div class="p-t-27">
 					<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
