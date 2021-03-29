@@ -35,11 +35,12 @@ include("partials/head.php");
 						<div class="wrap-table-shopping-cart">
 							<table class="table-shopping-cart">
 								<tr class="table_head">
-									<th class="column-1">Action</th>
-									<th class="column-2">Name</th>
-									<th class="column-3">Price</th>
-									<th class="column-4">Quantity</th>
-									<th class="column-5">Total</th>
+									<th class="column-1 text-center">Action</th>
+									<th class="column-2 text-center">Name</th>
+									<th class="column-3 text-center">Price</th>
+									<th class="column-4 text-center">Quantity</th>
+									<th class="column-5 text-center pr-0">Size</th>
+									<th class="column-6 text-center pr-5">Update</th>
 								</tr>
 								<?php
 								$total = 0;
@@ -47,39 +48,53 @@ include("partials/head.php");
 									foreach ($_SESSION['cart'] as $key => $value) {
 										$total = $total + $value['item_price'] * $value['quantity'];
 								?>
-								<tr class="table_row">
-									<td class="column-1">
-										<div class="">
-											<form action="cartremove.php" method="POST">
-												<button class="btn btn-sm btn-outline-danger" name="remove">Remove</button>
+										<tr class="table_row">
+											<td class="column-1 text-center">
+												<div class="">
+													<form action="cartremove.php" method="POST">
+														<button class="btn btn-sm btn-outline-danger" name="remove">Remove</button>
+														<input type="hidden" name="item_name" value="<?php echo $value['item_name'] ?>">
+													</form>
+												</div>
+											</td>
+											<td class="column-2 text-center"><?php echo $value['item_name'] ?>;</td>
+											<td class="column-3 text-center">$ <?php echo $value['item_price'] ?></td>
+											<td class="column-4 text-center">
+												<form action="cartupdate.php" method="POST">
+													<div class="wrap-num-product flex-w m-l-auto m-r-0">
+														<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+															<i class="fs-16 zmdi zmdi-minus"></i>
+														</div>
+														<input name="quantity" class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="<?php echo $value['quantity'] ?>">
+														<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+															<i class="fs-16 zmdi zmdi-plus"></i>
+														</div>
+													</div>
+											</td>
+											<td class="column-5 text-center pr-0">
+												<select name="size" id="size" class="custom-select" required>
+													<option selected value="">size</option>
+													<option value="XXS">XXS</option>
+													<option value="XS">XS</option>
+													<option value="S">S</option>
+													<option value="M">M</option>
+													<option value="L">L</option>
+													<option value="XL">XL</option>
+												</select>
+											</td>
+											<td class="column-6 text-center pr-5">
+												<button class="btn btn-sm btn-outline-danger" name="update">Update</button>
 												<input type="hidden" name="item_name" value="<?php echo $value['item_name'] ?>">
-											</form>
-										</div>
-									</td>
-									<td class="column-2"><?php echo $value['item_name'] ?>;</td>
-									<td class="column-3">$ <?php echo $value['item_price'] ?></td>
-									<td class="column-4">
-										<form action="cartupdate.php" method="POST">
-											<div class="wrap-num-product flex-w m-l-auto m-r-0">
-												<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-													<i class="fs-16 zmdi zmdi-minus"></i>
-												</div>
-												<input class="mtext-104 cl3 txt-center num-product" type="number" name="quantity" value="<?php echo $value['quantity'] ?>">
-												<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
-													<i class="fs-16 zmdi zmdi-plus"></i>
-												</div>
-											</div>
-									</td>
-									<td class="column-5">
-										<button class="btn btn-sm btn-outline-danger" name="update">Update</button>
-										<input type="hidden" name="item_name" value="<?php echo $value['item_name'] ?>">
-										</form>
-									</td>
-								</tr>
+												</form>
+											</td>
+										</tr>
 								<?php }
 								} ?>
 							</table>
 						</div>
+					</div>
+					<div class="p-5 w-100">
+						<img src="/images/sizeChart.PNG" alt="Sizechart" width="100%">
 					</div>
 				</div>
 
