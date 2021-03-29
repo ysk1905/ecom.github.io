@@ -44,10 +44,11 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Esprit Ruffle Shirt
+                          Digital print silk satin lehenga
                         </a>
                         <span class="stext-105 cl3">
-                          $16.64
+                          ₹11980
+
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
@@ -71,10 +72,10 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Herschel supply
+                          Tie and dye designer saree
                         </a>
                         <span class="stext-105 cl3">
-                          $35.31
+                          ₹10900
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
@@ -99,10 +100,10 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Only Check Trouser
+                          All black Printed lehenga
                         </a>
                         <span class="stext-105 cl3">
-                          $25.50
+                          ₹10990
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
@@ -126,10 +127,10 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Classic Trench Coat
+                          Top with kali palazzo set(pink)
                         </a>
                         <span class="stext-105 cl3">
-                          $75.00
+                          ₹7750
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
@@ -153,10 +154,10 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Front Pocket Jumper
+                          Yellow white tie dye one side lehenga kurta 
                         </a>
                         <span class="stext-105 cl3">
-                          $34.75
+                          ₹11520
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
@@ -180,10 +181,10 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Vintage Inspired Classic
+                          Block print cotton party wear lehenga sky blue
                         </a>
                         <span class="stext-105 cl3">
-                          $93.20
+                          ₹11980
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
@@ -207,10 +208,10 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Shirt in Stretch Cotton
+                          Crop top and skirt lehenga
                         </a>
                         <span class="stext-105 cl3">
-                          $52.66
+                          ₹9990
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
@@ -234,10 +235,10 @@ include("partials/head.php");
                     <div class="block2-txt flex-w flex-t p-t-14">
                       <div class="block2-txt-child1 flex-col-l ">
                         <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                          Pieces Metallic Printed
+                          Blouse And layered sharar
                         </a>
                         <span class="stext-105 cl3">
-                          $18.96
+                          ₹14500
                         </span>
                       </div>
                       <div class="block2-txt-child2 flex-r p-t-3">
