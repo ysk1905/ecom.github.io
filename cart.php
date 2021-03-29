@@ -7,8 +7,6 @@ include ("partials/head.php");
 <body class="animsition">
 	<?php
 	include ("partials/header.php");
-
-
 ?>
 	<br><br><br><br>
 	<!-- breadcrumb -->
@@ -44,13 +42,8 @@ include ("partials/head.php");
 								<?php 
 								$total=0;
 								if (isset($_SESSION['cart'])) {
-									
 									foreach ($_SESSION['cart'] as $key => $value) {
-									
 									$total=$total+$value['item_price']*$value['quantity'];
-
-
-
 								?>
 								<tr class="table_row">
 									<td class="column-1">
@@ -65,14 +58,11 @@ include ("partials/head.php");
 									<td class="column-3">$ <?php echo $value['item_price'] ?></td>
 									<td class="column-4">
 										<form action="cartupdate.php" method="POST">
-											
 										<div class="wrap-num-product flex-w m-l-auto m-r-0">
 											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
 												<i class="fs-16 zmdi zmdi-minus"></i>
 											</div>
-
 											<input name="quantity" class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="<?php echo $value['quantity'] ?>">
-
 											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
 												<i class="fs-16 zmdi zmdi-plus"></i>
 											</div>
@@ -82,21 +72,13 @@ include ("partials/head.php");
 										<button class="btn btn-sm btn-outline-danger" name="update">Update</button>
 											<input type="hidden" name="item_name" value="<?php echo $value['item_name'] ?>">
 											</form>
-										</td>
+									</td>
 								</tr>
 								<?php }
 									
 								} ?>
 								
 							</table>
-						</div>
-
-						<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
-							<div class="flex-w flex-m m-r-20 m-tb-5">
-								
-							</div>
-
-							
 						</div>
 					</div>
 				</div>
@@ -106,21 +88,18 @@ include ("partials/head.php");
 						<h4 class="mtext-109 cl2 p-b-30">
 							Cart Totals
 						</h4>
-
 						<div class="flex-w flex-t bor12 p-b-13">
 							<div class="size-208">
 								<span class="stext-110 cl2">
 									Subtotal:
 								</span>
 							</div>
-
 							<div class="size-209">
 								<span class="mtext-110 cl2">
 									$<?php echo $total ?>
 								</span>
 							</div>
 						</div>
-
 						<button onclick="location.href='cart2.php'" class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer">
 							Proceed to Checkout
 						</button>

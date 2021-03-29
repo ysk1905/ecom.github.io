@@ -3,6 +3,7 @@
 
 
 <?php
+session_start();
 include("partials/head.php");
 ?>
 
