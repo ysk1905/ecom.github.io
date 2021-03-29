@@ -560,7 +560,9 @@ include("partials/head.php");
     </div>
   </section>
 
-  <section class="sec-blog bg0 p-t-60 p-b-90">
+
+<!-- Hidding the blogs -->
+  <!-- <section class="sec-blog bg0 p-t-60 p-b-90">
     <div class="container">
       <div class="p-b-66">
         <h3 class="ltext-105 cl5 txt-center respon1">
@@ -702,7 +704,7 @@ include("partials/head.php");
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 

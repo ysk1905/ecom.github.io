@@ -45,10 +45,14 @@
             </li> -->
             <li class="label1" data-label1="New">
               <a href="product.php">Collection</a>
+              <ul class="sub-menu">
+                <li><a href="product.php">Shubharambh</a></li>
+                <li><a href="product.php">Sukoon</a></li>
+              </ul>
             </li>
-            <li>
+            <!-- <li>
               <a href="blog.php">Blog</a>
-            </li>
+            </li> -->
             <li>
               <a href="about.php">About</a>
             </li>
@@ -130,19 +134,26 @@
           <li><a href="home-02.html">Homepage 2</a></li>
           <li><a href="home-03.html">Homepage 3</a></li>
         </ul> -->
-        <span class="arrow-main-menu-m">
+        <!-- <span class="arrow-main-menu-m">
           <i class="fa fa-angle-right" aria-hidden="true"></i>
-        </span>
+        </span> -->
       </li>
       <!-- <li>
         <a href="product.php">Shop</a>
       </li> -->
       <li class="label1" data-label1="New">
         <a href="product.php">Collection</a>
+        <ul class="sub-menu">
+          <li><a href="product.php">Shubharambh</a></li>
+          <li><a href="product.php">Sukoon</a></li>
+        </ul>
+        <span class="arrow-main-menu-m">
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </span>
       </li>
-      <li>
+      <!-- <li>
         <a href="blog.php">Blog</a>
-      </li>
+      </li> -->
       <li>
         <a href="about.php">About</a>
       </li>
