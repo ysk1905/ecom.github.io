@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 23, 2020 at 09:04 AM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.2.31
+-- Generation Time: Mar 29, 2021 at 11:47 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -38,7 +38,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `username`, `password`) VALUES
-(1, 'arsalanmughal400@gmail.com', 'phpstore');
+(1, 'axetech@gmail.com', 'phpstore');
 
 -- --------------------------------------------------------
 
@@ -103,7 +103,8 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`id`, `username`, `password`, `created_at`, `updated_at`) VALUES
 (1, 'arsalanmughal324@gmail.com', 'customer', '2020-11-12 21:43:13', '2020-11-12 21:43:13'),
-(2, 'arsalanmughal400@gmail.com', 'buy', '2020-11-12 21:44:24', '2020-11-12 21:44:24');
+(2, 'arsalanmughal400@gmail.com', 'buy', '2020-11-12 21:44:24', '2020-11-12 21:44:24'),
+(3, 'abc@gmail.com', '1234', '2021-03-23 06:58:26', '2021-03-23 06:58:26');
 
 -- --------------------------------------------------------
 
@@ -113,8 +114,9 @@ INSERT INTO `customers` (`id`, `username`, `password`, `created_at`, `updated_at
 
 CREATE TABLE `orders` (
   `id` int(11) NOT NULL,
+  `CustName` varchar(20) DEFAULT NULL,
   `customer_id` int(11) NOT NULL,
-  `address` varchar(30) NOT NULL,
+  `address` varchar(50) NOT NULL,
   `phone` varchar(30) NOT NULL,
   `total` int(11) NOT NULL,
   `pay_method` varchar(20) NOT NULL,
@@ -126,9 +128,9 @@ CREATE TABLE `orders` (
 -- Dumping data for table `orders`
 --
 
-INSERT INTO `orders` (`id`, `customer_id`, `address`, `phone`, `total`, `pay_method`, `created_at`, `updated_at`) VALUES
-(3, 1, 'flat 13-b, gulshan terrace, Mu', '03332975389', 15002, '', '2020-11-14 22:50:18', '2020-11-14 22:50:18'),
-(4, 1, 'Sanarota', '03332975389', 15002, '', '2020-11-14 22:57:55', '2020-11-14 22:57:55');
+INSERT INTO `orders` (`id`, `CustName`, `customer_id`, `address`, `phone`, `total`, `pay_method`, `created_at`, `updated_at`) VALUES
+(33, 'Yash', 0, 'Minal Bhopal', '7878787879', 1500, 'cash', '2021-03-29 09:00:47', '2021-03-29 09:00:47'),
+(35, 'Rishab Goyal', 0, 'TT NAGAR ,BHOPAL', '9111648587', 46500, 'cash', '2021-03-29 09:05:21', '2021-03-29 09:05:21');
 
 -- --------------------------------------------------------
 
@@ -150,26 +152,9 @@ CREATE TABLE `order_details` (
 --
 
 INSERT INTO `order_details` (`id`, `order_id`, `product_id`, `quantity`, `created_at`, `updated_at`) VALUES
-(1, 5, 9, 1, '2020-11-14 23:03:39', '2020-11-14 23:03:39'),
-(2, 6, 9, 1, '2020-11-14 23:11:07', '2020-11-14 23:11:07'),
-(3, 8, 9, 1, '2020-11-19 07:10:05', '2020-11-19 07:10:05'),
-(4, 9, 9, 1, '2020-11-19 07:10:14', '2020-11-19 07:10:14'),
-(5, 10, 9, 1, '2020-11-19 07:12:15', '2020-11-19 07:12:15'),
-(6, 11, 9, 1, '2020-11-19 07:12:51', '2020-11-19 07:12:51'),
-(7, 12, 9, 1, '2020-11-19 07:13:15', '2020-11-19 07:13:15'),
-(8, 13, 9, 1, '2020-11-19 07:17:39', '2020-11-19 07:17:39'),
-(9, 14, 9, 1, '2020-11-19 07:17:51', '2020-11-19 07:17:51'),
-(10, 15, 9, 1, '2020-11-19 07:19:04', '2020-11-19 07:19:04'),
-(11, 16, 9, 1, '2020-11-19 07:19:10', '2020-11-19 07:19:10'),
-(12, 17, 9, 1, '2020-11-19 07:19:25', '2020-11-19 07:19:25'),
-(13, 18, 9, 1, '2020-11-19 07:19:36', '2020-11-19 07:19:36'),
-(14, 19, 9, 1, '2020-11-19 07:21:22', '2020-11-19 07:21:22'),
-(15, 20, 9, 1, '2020-11-19 07:21:32', '2020-11-19 07:21:32'),
-(16, 4, 13, 1, '2020-11-19 08:12:43', '2020-11-19 08:12:43'),
-(17, 4, 13, 1, '2020-11-19 08:12:50', '2020-11-19 08:12:50'),
-(18, 4, 13, 1, '2020-11-19 08:13:09', '2020-11-19 08:13:09'),
-(19, 4, 13, 1, '2020-11-19 08:13:38', '2020-11-19 08:13:38'),
-(20, 21, 13, 1, '2020-11-19 08:15:32', '2020-11-19 08:15:32');
+(26, 33, 6, 1, '2021-03-29 09:00:47', '2021-03-29 09:00:47'),
+(29, 35, 6, 1, '2021-03-29 09:05:21', '2021-03-29 09:05:21'),
+(30, 35, 13, 1, '2021-03-29 09:05:21', '2021-03-29 09:05:21');
 
 -- --------------------------------------------------------
 
@@ -271,19 +256,19 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `order_details`
 --
 ALTER TABLE `order_details`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT for table `products`
