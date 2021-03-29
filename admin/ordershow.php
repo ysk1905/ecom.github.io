@@ -39,40 +39,23 @@ include('adminpartials/head.php');
           <?php
           include('../partials/connect.php');
 
-          $id=$_GET['pro_id'];
-          $sql="SELECT * from orders WHERE id='$id'";
+          $order_id=$_GET['order_id'];
+          $sql="SELECT * from orders WHERE id='$order_id'";
           $results=$connect->query($sql);
-
           $final=$results->fetch_assoc();        
           ?>
-
-          <h3> CustomerNo : <?php echo $final['customer_id']?> </h3><hr><br>
-
-          <h3> Total : <?php echo $final['total']?> </h3><hr><br>
-
-          <h3> Address : <?php echo $final['address']?> </h3><hr><br>
-          
-
-
-
-        </div>
-        <div class="col-sm-9">
-
+          <h5> CustomerNo : <?php echo $final['customer_id']?> </h5>
+          <h5> Customer Name : <?php echo $final['CustName']?> </h5>
+          <h5> Total : <?php echo $final['total']?> </h5>
+          <h5> Address : <?php echo $final['address']?> </h5><hr>
+          <h3>Items Orderd :</h3>
           <?php
-          
-          $sql2="SELECT * from order_details WHERE id='$id'";
+          $sql2="SELECT * from order_details WHERE order_id='$order_id'";
           $results=$connect->query($sql2);
-
-          $final=$results->fetch_assoc();        
-          ?>
-
-          <h3> ProductNo : <?php echo $final['product_id']?> </h3><hr><br>
-
-          <h3> quantity : <?php echo $final['quantity']?> </h3><hr><br>
-          
-
-
-
+          while ($final = $results->fetch_assoc()) { ?>
+            <h5 class="inline"> ProductNo : <?php echo $final['product_id']?> </h5>
+            <h5 class="inline"> quantity : <?php echo $final['quantity']?> </h5><hr>
+          <?php } ?>
         </div>
 
       
@@ -84,8 +67,8 @@ include('adminpartials/head.php');
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
- <?php
- include('adminpartials/footer.php');
- ?>
+  <?php
+  include('adminpartials/footer.php');
+  ?>
 </body>
 </html>

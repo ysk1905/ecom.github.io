@@ -5,12 +5,12 @@ include('../partials/connect.php');
 $total=$_POST['total'];
 
 $phone=$_POST['phone'];
-
+$name=$_POST['name'];
 $address=$_POST['address'];
 $customerid=$_SESSION['customerid'];
 $payment=$_POST['payment'];
 
-$sql="INSERT INTO orders(customer_id, address, phone, total, pay_method) VAlUES('$customerid','$address','$phone','$total', '$payment')";
+$sql="INSERT INTO orders(CustName,customer_id, address, phone, total, pay_method) VAlUES('$name','$customerid','$address','$phone','$total', '$payment')";
 $connect->query($sql);
 
 

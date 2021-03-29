@@ -133,9 +133,11 @@ include("partials/head.php");
 
 									<form action="handler/orderhandler.php" method="POST">
 										<div class="bor8 bg0 m-b-12">
+											<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="name" placeholder="Your Name">
+										</div>
+										<div class="bor8 bg0 m-b-12">
 											<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="address" placeholder="address">
 										</div>
-
 										<div class="bor8 bg0 m-b-22">
 											<input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="phone" placeholder="Phone number">
 										</div>
