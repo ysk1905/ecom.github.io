@@ -8,24 +8,20 @@
 				<ul>
 					<li class="p-b-10">
 						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-							Women
+							Lehenga choli
 						</a>
 					</li>
 					<li class="p-b-10">
 						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-							Men
+							Kurta palazzo
 						</a>
 					</li>
 					<li class="p-b-10">
 						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-							Shoes
+							Choli palazzo
 						</a>
 					</li>
-					<li class="p-b-10">
-						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-							Watches
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 			<div class="col-sm-6 col-lg-3 p-b-50">
@@ -34,25 +30,17 @@
 				</h4>
 				<ul>
 					<li class="p-b-10">
-						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+						<a href="order.php" class="stext-107 cl7 hov-cl1 trans-04">
 							Track Order
 						</a>
 					</li>
+					
 					<li class="p-b-10">
-						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-							Returns
-						</a>
-					</li>
-					<li class="p-b-10">
-						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+						<a href="policy.php" class="stext-107 cl7 hov-cl1 trans-04">
 							Shipping
 						</a>
 					</li>
-					<li class="p-b-10">
-						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-							FAQs
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 			<div class="col-sm-6 col-lg-3 p-b-50">
