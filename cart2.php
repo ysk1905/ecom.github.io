@@ -119,12 +119,12 @@ include("partials/head.php");
 						<div class="flex-w flex-t bor12 p-b-13 mb-2">
 							<div class="size-208">
 								<span class="stext-110 cl2">
-									GST :
+									
 								</span>
 							</div>
 							<div class="size-209">
 								<span class="mtext-110 cl2">
-									+ 18% GST
+									
 								</span>
 							</div>
 						</div>
@@ -136,7 +136,7 @@ include("partials/head.php");
 							</div>
 							<div class="size-209 p-r-18 p-r-0-sm w-full-ssm">
 								<p class="stext-111 cl6 p-t-2">
-									Free delivery is avilable on orders above Rs.7000
+									This price includes 12% GST. Free delivery is avilable on orders above Rs.7000
 								</p>
 								<div class="p-t-15">
 									<form action="handler/orderhandler.php" method="POST">
