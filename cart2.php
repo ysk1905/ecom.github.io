@@ -12,7 +12,7 @@ include("partials/head.php");
 	?>
 
 	<!-- breadcrumb -->
-	<div class="container"><br><br><br><br>
+	<!--<div class="container"><br><br><br><br>
 		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
 			<a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
 				Home
@@ -23,7 +23,7 @@ include("partials/head.php");
 				Shopitime
 			</span>
 		</div>
-	</div>
+	</div>-->
 
 
 	<!-- Shoping Cart -->
