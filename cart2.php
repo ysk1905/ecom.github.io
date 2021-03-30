@@ -58,7 +58,7 @@ include("partials/head.php");
 												</div>
 											</td>
 											<td class="column-2 text-center"><?php echo $value['item_name'] ?>;</td>
-											<td class="column-3 text-center">$ <?php echo $value['item_price'] ?></td>
+											<td class="column-3 text-center">₹ <?php echo $value['item_price'] ?></td>
 											<td class="column-4 text-center">
 												<form action="cartupdate.php" method="POST">
 													<div class="wrap-num-product flex-w m-l-auto m-r-0">
@@ -94,7 +94,7 @@ include("partials/head.php");
 						</div>
 					</div>
 					<div class="p-5 w-100">
-						<img src="/images/sizeChart.PNG" alt="Sizechart" width="100%">
+						<img src="./images/sizechart.jpeg" alt="Sizechart" width="100%">
 					</div>
 				</div>
 
@@ -104,7 +104,7 @@ include("partials/head.php");
 						<h4 class="mtext-109 cl2 p-b-30">
 							Cart Totals
 						</h4>
-						<div class="flex-w flex-t bor12 p-b-13">
+						<div class="flex-w flex-t p-b-13">
 							<div class="size-208">
 								<span class="stext-110 cl2">
 									Subtotal:
@@ -112,7 +112,19 @@ include("partials/head.php");
 							</div>
 							<div class="size-209">
 								<span class="mtext-110 cl2">
-									$<?php echo $total ?>
+									₹ <?php echo $total ?>
+								</span>
+							</div>
+						</div>
+						<div class="flex-w flex-t bor12 p-b-13 mb-2">
+							<div class="size-208">
+								<span class="stext-110 cl2">
+									GST :
+								</span>
+							</div>
+							<div class="size-209">
+								<span class="mtext-110 cl2">
+									+ 18% GST
 								</span>
 							</div>
 						</div>
