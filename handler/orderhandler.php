@@ -25,8 +25,6 @@ foreach ($_SESSION['cart'] as $key => $value) {
 	$proid=$value['item_id'];
 	$quantity=$value['quantity'];
 	$size=$value['size'];
-
-
 	$sql3="INSERT Into order_details(order_id,product_id,size,quantity) VAlUES('$orderid','$proid',$size,'$quantity')";
 	$connect->query($sql3);
 	# code...
