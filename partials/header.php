@@ -98,7 +98,7 @@
     <ul class="topbar-mobile">
       <li>
         <div class="left-top-bar">
-          Free shipping for standard order over Rs.7000
+          Free shipping for standard order over Rs.7000 | Fist 100 customers get 10% off, apply the coupon "FIRST"
         </div>
       </li>
       <li>
