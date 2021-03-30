@@ -93,7 +93,7 @@ include("partials/head.php");
 						</div>
 					</div>
 					<div class="p-5 w-100">
-						<img src="./images/sizechart.jpeg" alt="Sizechart" width="100%">
+						<img src="./images/sizechart.jpg" alt="Sizechart" width="100%">
 					</div>
 				</div>
 
