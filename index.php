@@ -38,7 +38,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-01.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=25" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
@@ -66,7 +66,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-02.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=22" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
@@ -94,7 +94,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-03.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=23" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
@@ -121,7 +121,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-04.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=24" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
@@ -148,7 +148,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-05.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=26" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
@@ -175,7 +175,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-06.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=27" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
@@ -202,7 +202,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-07.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=28" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
@@ -229,7 +229,7 @@ include("partials/head.php");
                   <div class="block2">
                     <div class="block2-pic hov-img0">
                       <img src="images/product-08.jpg" alt="IMG-PRODUCT">
-                      <a href="details.php?details_id=6" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                      <a href="details.php?details_id=29" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
                         Buy Now
                       </a>
                     </div>
